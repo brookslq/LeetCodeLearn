@@ -49,7 +49,7 @@ func moveZero(_ input: inout[Int]) {
 //moveZero(&input)
 //print(input)
 
-func moveZeros(_ input: inout[Int]) {
+func moveZeroes(_ input: inout[Int]) {
     // k 用于记录值为 0 的 个数（又能拿来做索引）
     var k = 0
     for i in input.indices {
@@ -71,5 +71,5 @@ func moveZeros(_ input: inout[Int]) {
     }
 }
 
-moveZeros(&input)
+moveZeroes(&input)
 print(input)
